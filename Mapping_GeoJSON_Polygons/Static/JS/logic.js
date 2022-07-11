@@ -18,14 +18,14 @@ accessToken: API_KEY
 // Create a base layer that holds both maps.
 let baseMaps = {
   Street: streets,
-  Satellite Street: iteStreets
+  SatelliteStreets: satelliteStreets
 };
 
 // Create the map object with center, zoom level and default layer.
 let map = L.map('mapid', {
-  center: [43.7, -79.3]],
+  center: [43.7, -79.3],
   zoom: 11,
-  layers: [iteStreets]
+  layers: [satelliteStreets]
 })
 
 // Pass our map layers into our layers control and add the layers control to the map.
